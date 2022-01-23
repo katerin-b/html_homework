@@ -1,0 +1,60 @@
+@import "style.css";
+
+.registration {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.form {
+    font-family: Inter;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+}
+
+.form h2 {
+    font-family: Inter;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.form input {
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.form input:hover, .form input:active, .form input:focus {
+    border-color: #8e11f3;
+    caret-color: #8e11f3;
+}
+.form button {
+    letter-spacing: 0.1rem;
+    outline: 0;
+    background: black;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+    background: #4c20d4;
+}
+.form .register-form {
+    display: none;
+}
+
+* {
+    margin: 0px;
+}
