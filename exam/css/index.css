@@ -1,18 +1,5 @@
 @import "style.css";
 
-
-h1 {
-    font-family: Inter;
-    color: white;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 90%;
-    padding-bottom: 64px;
-    padding-top: 150px;
-    position: relative;
-    text-align: center;
-}
-
 /* КАРТОЧКИ */
 
 .cards {
@@ -134,6 +121,3 @@ h1 {
     background-color: #8e11f3;
 }
 
-* {
-    margin: 0px;
-}
